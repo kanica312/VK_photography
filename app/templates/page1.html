@@ -1,0 +1,324 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VK Photography</title>
+  <link rel="icon" href="{%static 'images/Camera.png'%}">
+  <link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+  <link rel="stylesheet" href="{%static 'css/bootstrap-icons.min.css'%}">
+  <link rel="stylesheet" href="{%static 'css/style.css'%}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Parisienne&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-theme-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand ms-1 fw-bold border p-2 rounded-circle text-black font bg-theme-light" href="#">VK</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms">
+          <li class="nav-item mx-4">
+            <a class="nav-link active text-white font" aria-current="page" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link text-white font" href="#work">OUR WORK</a></span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white font" href="#contact">CONTACT US</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link text-white font" href="#review">REVIEWS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="bannerimg">
+    <div class="pt-5 text-center text-white">
+
+      <h1 class="mt font-name fw-bold ">VK Photography</h1>
+      <h3 class="font-intro text-center fw-bold fs-2 my-2"> At Amritsar</h3>
+      <h4 class="font fw-bold tl fs-4 mb-4">CAPTURING THE BEAUTY OF LIFE</h5>
+        <a href="#contact" class="text-decoration-none text-light fs-3 border p-2 mt-5 font2">ENQUIRY NOW</a>
+
+    </div>
+  </section>
+  <div class="bg-theme-light">
+    <section class=" conatiner py-5">
+      <div class="row" id="about">
+        <div class="d-none d-md-block col-md-7 px-5">
+
+          <video src="{% static 'images/vid.mp4' %}" autoplay muted loop
+            class="w-100 p-3 mt-3 rounded-circle rounded-bottom-0"></video>
+
+        </div>
+        <div class=" col-12 col-md-5 px-5">
+          <div class="text-center">
+            <h2 class="font-name fs-1 fw-bold">Capturing Moments <br><span class="font-intro fw-bold td"> to last a
+                lifetime</span></h2>
+            <h3 class="text-center fw-bold tl border border-dark bg-theme-dark rounded-pill p-2">20+ Years Of Experience
+            </h3>
+            <p class="text-justify fs-5 fw-bold mt-4 ">At VK Photography, we are passionate about capturing life’s most
+              beautiful moments with creativity and perfection. We specialize in wedding photography, pre-wedding
+              shoots, events, and special occasions, delivering high-quality images that tell your unique story. Our
+              goal is to provide premium photography services in a budget-friendly way, so every couple and family can
+              preserve their precious memories without compromise.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="bg-theme-dark">
+    <section class="container py-5">
+      <h1 class="text-center text-light " id="services">Our Services</h1>
+
+      <div class="row p-5 bg-theme-light my-5">
+        <div class="col-12 col-md-6">
+          <img src="{% static 'images/wed.jpg' %}" alt="" class="w-100 ">
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <h1 class="font2 fw-bold fs-1 my-5">Wedding <br>
+            <span class="td font-intro ms-5"> Functions</span>
+          </h1>
+
+          <ul class="mt-2 border border-dark">
+            <li class="font fw-bold fs-5">ALL kinds of wedding functions</li>
+            <li class="font fw-bold fs-5">Pre-wedding shoot</li>
+            <li class="font fw-bold fs-5">Album included</li>
+            <li class="font fw-bold fs-5">Live,candid,cinematic,Drone,Still etc</li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="row p-5 bg-theme-light my-5">
+        <div class="col-12 col-md-6 text-center">
+          <h1 class="font2 fw-bold fs-1 my-5">Party <br>
+            <span class="td font-intro ms-5"> Functions</span>
+          </h1>
+
+          <ul class="mt-2 border border-dark">
+            <li class="font fw-bold fs-5">ALL kinds of Parties</li>
+            <li class="font fw-bold fs-5">Birthday party</li>
+            <li class="font fw-bold fs-5">Anniversery</li>
+            <li class="font fw-bold fs-5">Retirement Party</li>
+          </ul>
+
+        </div>
+
+        <div class="col-12 col-md-6 ">
+          <img src="{% static 'images/birthday.jpg' %}" alt="" class="w-100 ">
+        </div>
+
+      </div>
+  </div>
+  <div class="bg-theme-light">
+    <section class="container py-5">
+      <div class="row g-1">
+      <h2 class="text-dark font-name fw-bold text-center" id="work">Our Work</h2>
+      <p class="font-intro text-center td fw-bold fs-2">Quality over Quantity</p>
+     
+        {% for i in images_work %}
+        <div class="col-12 col-md-3 ">
+         
+         <img src="/media/{{i.images}}" class="my-3" alt="..." height="500px" class="w-100">
+         </div> 
+         {% endfor%}
+      
+       <div class="text-end mt-5"> <a href="{% url 'work' %}" class="bg-theme-dark px-3 py-2 mt-3 px-4 br text-light fw-bold text-decoration-none" > Click To View More</a>
+     
+      </div>
+      </div>
+    </section>
+  </div>
+  </section>
+  <div class="bg-theme-dark">
+    <section class="container py-5">
+      <h2 class="tl font-intro fw-bold" id="contact"><span class="text-dark">~ </span>Contact Me</h2>
+      <div class="row my-4">
+        <div class="col-11 col-md-4">
+
+          <h1 class="text-white font-name fw-bold">Let's Talk for <span class="tl">Your Queries</span></h1>
+          <i>
+            <p class="text-white font fs-5">Got a question ? You are just one call away</p>
+          </i>
+          <div class="my-4">
+
+            <p class="font fs-5 text-white"> <span class="bg-theme-light rounded-circle p-2"><i
+                  class="bi bi-telephone-fill text-dark"></i></span>
+              +91 9814774994</p>
+            <p class="my-4 font fs-5 text-white"> <span class="bg-theme-light rounded-circle p-2"><i
+                  class="bi bi-envelope-fill text-dark"></i></span> vickyphotographer231@gmail.com</p>
+            <p class="font fs-5 text-white"> <span class="bg-theme-light rounded-circle p-2 text-dark"><i
+                  class="bi bi-geo-alt-fill"></i></span>
+              231,Kirpa nagar,Chheherta,143001</p>
+          </div>
+        </div>
+        <div class="col-11 col-md-8 justify-content-center">
+          <form method="post">
+            {% csrf_token%}
+
+            <label for="" class="font1 fs-6 text-white mb-2">Enter Name</label>
+            {{form.name}}
+
+            <label for="" class="font1 fs-6 text-white mb-2">Phone number</label>
+            {{form.phone_number}}
+            <label for="" class="font1 fs-6 text-white mb-2">Email</label>
+            {{form.email}}
+            <p class="text-center">
+              <button type="submit" name="contact_submit" class="btn bg-theme-light mt-3 p-3 px-5 br text-dark">Send
+                Message <span class="bg-theme-dark br rounded-circle p-2"><i
+                    class="bi bi-arrow-right text-light"></i></span></button>
+          </form>
+        </div>
+      </div>
+
+
+    </section>
+  </div>
+  <div class="bg-theme-light">
+    <section class="container py-5" id="review">
+      <div class="row">
+        <h2 class="font-intro fw-bold text-center td"><span class="text-dark">~</span> Testimonials</h2>
+        <h1 class="font fw-bold text-center mb-5 text-dark">The Impact of my Work</h1>
+        <div class="col-12 col-md-6">
+          <h3 class="font-intro fw-bold mb-4 text-dark"><i class="bi bi-star-fill"></i> Write a Review:</h3>
+          <form method="post">
+            {% csrf_token%}
+            <label class="font-name mb-1 text-dark">Name</label>
+            {{t_form.name}}
+            <label class="font-name mb-1 mt-2 text-dark">Review</label>
+            {{t_form.message}}
+            <p class="text-center">
+              <button type="submit" name="test_submit" class="btn bg-theme-dark p-3 mt-3 px-4 br text-light fw-bold">Add
+                Review
+                <span class="bg-theme-light br rounded-circle p-2"><i
+                    class="bi bi-arrow-right text-dark fw-bold"></i></span></button>
+            </p>
+          </form>
+        </div>
+
+        <div class="col-12 col-md-6">
+
+          <div id="carouselExample" class="carousel slide">
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <div class="bg-theme-dark border border-3 border-light rounded" style="height:307px">
+                  <div class="p-5">
+                    <h3 class="mt-5 text-center font-intro fw-bold fs-1 text-light"><i class="bi bi-quote"></i>Every
+                      review is a
+                      reminder that our work touches real lives <i class="bi bi-quote quote-right"></i></h3>
+                    <p class="tl text-end mt-5">Scroll right to view reviwes <i class="bi bi-arrow-right"></i></p>
+                  </div>
+                </div>
+              </div>
+              {% for t in testimonials %}
+              <div class="carousel-item bg-light border border-3 border-dark" style="height:307px">
+                <div class="col rounded">
+                  <div class="p-5 m-1">
+                    <p class="font-name fs-5 fw-bold"><span class="bg-white rounded-circle p-2 me-1"><i
+                          class="bi bi-person-fill"></i></span>{{t.name}}</p>
+                    <p><i class="bi bi-calendar-event-fill"></i>
+                      {{t.created_at | date }}</p>
+                    <p class="font text-justify">{{t.message}}</p>
+
+
+                  </div>
+                </div>
+
+              </div>
+              {% endfor%}
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>
+  <div class="bg-theme-dark">
+    <footer class="container py-5">
+
+      <h1 class="font fw-bold text-light border-bottom p-3 border-2 border-dark">Let's <span class="tl">Connect</span>
+        there</h1>
+      <div class="row py-5">
+
+        <div class="col-12 col-md-6">
+          <div class="d-flex">
+            <img src="{% static 'images/camera.png' %}" class="" height="40" width="40">
+            <h2 class="ms-2 fw-bold font-intro tl"> Team Vicky</h2>
+          </div>
+
+          <p class="font1 text-justify text-light">Turning life moments into Memories with love,Care and Experience.
+            we value your needs and handle it accordingly.We provide Quality work in mimimum spend.
+
+          </p>
+        </div>
+        <div class="col-6 col-md-3 text-white font1">
+          <h4 class="font1 tl">Navigation</h4>
+
+          <a class="nav-link text-light font " aria-current="page" href="#">ABOUT</a>
+
+
+          <a class="nav-link text-light font " href="#services">SERVICES</a>
+
+
+          <a class="nav-link text-light font " href="#work">OUR WORK</a>
+
+
+          <a class="nav-link text-light font " href="#contact">CONTACT US</a>
+
+          <a class="nav-link text-light font " href="#review">REVIEWS</a>
+
+        </div>
+
+        <div class="col-6 col-md-3 font1">
+          <h4 class="font1 tl">Contact</h4>
+
+          <p class="text-light font">+91-9814774994</p>
+          <p class="text-light font">vickyphotographer231@gmail.com</p>
+          <p class="text-light font">231,kirpa nagar,chheherta,<br>Amritsar</p>
+
+        </div>
+
+
+
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="{% static 'js/bootstrap.bundle.min.js'%}"></script>
+</body>
+
+</body>
+
+</html>

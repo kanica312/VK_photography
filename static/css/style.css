@@ -1,0 +1,95 @@
+
+    .bg-theme-dark{
+      background-color:rgb(85, 107, 47);
+    }
+    .bg-theme-light{
+      background-color:#e4e499;
+    }
+    .td{
+      color:rgb(85, 107, 47);
+
+    }
+    .tl{
+      color:rgb(228, 228, 153);
+
+    }
+
+    .ms{
+      margin-left:300px;
+    }
+    
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .font {
+      font-family: 'Times New Roman', Times, serif
+    }
+
+   .font-intro{
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+    .font-name {
+      font-family: 'Allura';
+    }
+
+    .br {
+      border-radius: 50px;
+    }
+
+    .font2 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+    .text-justify {
+      text-align: justify;
+    }
+
+    .zoom-img {
+      transition: transform 0.5s ease;
+    }
+  
+
+    .zoom-img:hover {
+      transform: scale(1.05);
+    }
+
+    .bg-grey {
+      background-color: #D6DEE8;
+    }
+
+    .text-grey {
+      color: rgb(214, 222, 232);
+    }
+
+    ul {
+      list-style: none;
+    }
+    .quote-right{
+      display:inline-block;
+      transform:rotate(180deg);
+    }
+   .bannerimg{
+    background-image:url(../images/amish-thakkar-EiGfP6DxgN8-unsplash.jpg);
+    height:600px;
+    background-size:cover;
+    background-position:center;
+    
+
+}
+.bannerimg div{
+    background-color:rgba(16, 16, 17, 0.7); 
+    height:600px;
+    
+}
+.about{
+  font-size:80px;
+}
+.mt{
+  margin-top:200px;
+}
